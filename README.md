@@ -1,0 +1,2 @@
+# MACD_flask_project
+ This project provides trading information to users based on the MACD indicator. The algorithm built provides value by matching the likely signals 'overbought' and 'oversold' to the appropriate MACD crossovers. A quick observation suggests that the results provided are accurate around 60% of the time, better than the stock screeners which does not match the appropriate signals to the right MACD crossovers
