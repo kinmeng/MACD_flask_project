@@ -3,6 +3,10 @@
 
 The deployed flask app is here: http://35.240.166.48:8080/results
 
+What does the algorithm do?
+The algorithm aims to identify MACD and MACD signal line crossovers. The signals are then paired with Williams%r signals to confirm a trend reversal. The algorithm is applied to stock symbols with yfinance API (The stock tickers are obtained from the excel files stored in the folder /stock_symbols)
+
+
 How to download and run the files locally:
 
 1. Download the files in .zip
