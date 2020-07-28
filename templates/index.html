@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<table class="styledTable">
+   
+   <th style="padding:10px">Stock Tickers</th>
+   <th>Stock names</th>
+   <th>Status</th>
+   <th style="padding-left:15px">Date of MACD crossover</th>
+   {%for key in result%}
+         <tr>
+            <th style="padding:15px"> {{ key  }} </th>
+            <td style="padding:15px"> {{ result[key][0] }} </td>
+            <td style="padding-left:15px">{{ result[key][1][0][0]}}</td>
+            <td style="padding-left:20px">{{ result[key][1][0][1]}}</td>
+         </tr>
+   {% endfor %}
+
+
+</table>
