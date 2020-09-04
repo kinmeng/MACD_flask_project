@@ -1,5 +1,5 @@
 # MACD_flask_project
- This project provides trading information to users based on the MACD indicator. The algorithm built provides value by matching the likely signals 'overbought' and 'oversold' to the appropriate MACD crossovers. A quick observation suggests that the results provided are accurate around 60% of the time, better than the stock screeners which does not match the appropriate signals to the right MACD crossovers
+ This project provides trading information to users based on the MACD indicator. The algorithm built provides value by matching the likely signals 'overbought' and 'oversold' to the appropriate MACD crossovers. A quick observation suggests that the results provided are actionable a few days of the week, better than the stock screeners which automated the tasks of having to filter through stock screeners one-by-one. The disadvantage of the application is that it is dependent on absolute values, so there may be false positive results.
 
 The deployed flask app is here: http://35.240.166.48:8080/results
 
