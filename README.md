@@ -1,7 +1,6 @@
 # MACD_flask_project
  This project provides trading information to users based on the MACD indicator. The algorithm built provides value by matching the likely signals 'overbought' and 'oversold' to the appropriate MACD crossovers. A quick observation suggests that the results provided are actionable a few days of the week, better than the stock screeners which automated the tasks of having to filter through stock screeners one-by-one. The disadvantage of the application is that it is dependent on absolute values, so there may be false positive results.
 
-The deployed flask app is here: http://35.240.166.48:8080/results
 
 What does the algorithm do?
 The algorithm aims to identify MACD and MACD signal line crossovers. The signals are then paired with Williams%r signals to confirm a trend reversal. The algorithm is applied to stock symbols with yfinance API (The stock tickers are obtained from the excel files stored in the folder /stock_symbols)
