@@ -21,10 +21,10 @@ def get_data(stock_symbols):
     # print(df.columns)
     return df
 
-#deal breaker based on past data and limited future data
+#outcome of filtering is based on past data and limited future data
 def breaker(date, macdhist_df, macd, macd_df, stock_symbol, check):
-    #true is what u want
-    #false breaks the appending of the date for u
+    #True will be a positive signal we are looking for
+    #False will prevent the date from being added (appended
     #check is what u want if u want to check all positive put p
    
     pre_days = (date - timedelta(5)).strftime('%Y-%m-%d')
